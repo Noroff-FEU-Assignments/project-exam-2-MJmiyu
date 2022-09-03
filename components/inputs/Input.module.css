@@ -1,0 +1,14 @@
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Input {
+  outline: none;
+  border: 1px solid #19bfba;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 100px;
+  width: 100%;
+}

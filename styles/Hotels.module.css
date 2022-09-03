@@ -1,0 +1,41 @@
+.Hotels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  width: 100%;
+  padding: 25px;
+}
+
+.Hotel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #19bfba;
+  border-radius: 5px;
+  padding: 15px;
+  gap: 10px;
+}
+
+.HotelInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Bold {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .Hotels {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .HotelInfo {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}

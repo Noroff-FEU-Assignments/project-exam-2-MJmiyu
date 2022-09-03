@@ -1,0 +1,27 @@
+.FormContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.ButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .FormContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

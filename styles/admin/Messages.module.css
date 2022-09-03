@@ -1,0 +1,62 @@
+.Messages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 25px 25px;
+}
+
+.MessageRow {
+  display: grid;
+  grid-template-areas:
+    'name email delete'
+    'subject message message';
+  grid-template-columns:
+    minmax(100px, 1fr) minmax(100px, 1fr)
+    100px;
+  border-bottom: 1px solid #19bfba;
+  padding: 10px;
+  gap: 10px;
+}
+
+.MessageRow:hover {
+  background-color: #19bfba22;
+}
+
+.MessageRow > div {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Name {
+  grid-area: name;
+}
+
+.Email {
+  grid-area: email;
+}
+
+.DeleteMessage {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: delete;
+}
+
+.Subject {
+  grid-area: subject;
+}
+
+.Message {
+  grid-area: message;
+}
+
+@media only screen and (max-width: 600px) {
+  .MessageRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .DeleteMessage {
+    justify-content: center;
+  }
+}

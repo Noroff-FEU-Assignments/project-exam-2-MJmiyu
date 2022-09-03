@@ -1,0 +1,40 @@
+.SearchContainer {
+  width: 150px;
+  position: relative;
+}
+
+.SearchInput {
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  min-width: 100px;
+  width: 100%;
+  border: 2px solid #19bfba;
+  font-size: 16px;
+}
+
+.SearchResults {
+  position: absolute;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #19bfba;
+  background: #fefefe;
+  font-size: 18px;
+  gap: 5px;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.SearchResult {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.SearchResult:hover {
+  text-decoration: underline;
+}

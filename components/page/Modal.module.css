@@ -1,0 +1,39 @@
+.ModalBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000aa;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  gap: 10px;
+  border: 3px solid #19bfba;
+  min-width: 300px;
+  width: fit-content;
+}
+
+.ModalHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CloseIcon {
+  font-size: 20px;
+}
+
+.CloseIcon:hover {
+  cursor: pointer;
+}

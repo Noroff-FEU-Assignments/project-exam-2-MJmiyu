@@ -1,0 +1,31 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 10px 25px;
+  border-top: 1px solid #19bfba;
+  margin-top: auto;
+}
+
+.FooterLink {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.FooterLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .Footer {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .FooterLink {
+    padding: 5px;
+  }
+}

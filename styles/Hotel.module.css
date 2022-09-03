@@ -1,0 +1,16 @@
+.HotelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  max-width: 500px;
+  padding: 0 25px 25px;
+}
+
+.HotelInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}

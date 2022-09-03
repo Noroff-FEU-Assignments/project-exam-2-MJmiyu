@@ -1,0 +1,9 @@
+.BookHotelForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.BookingPrice {
+  margin-bottom: 10px;
+  text-align: center;
+}

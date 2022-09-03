@@ -1,0 +1,16 @@
+.TextareaContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Textarea {
+  outline: none;
+  border: 1px solid #19bfba;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 100px;
+  width: 100%;
+  resize: none;
+}

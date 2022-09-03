@@ -1,0 +1,44 @@
+.Hotels {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Hotel {
+  padding: 0 25px;
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 110px 120px 1fr;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid #19bfba;
+  padding: 10px;
+}
+
+.HotelButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  align-items: center;
+}
+
+.EditHotelLink {
+  font-size: 18px;
+}
+
+.EditHotelLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.EditHotelIcon {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Hotel {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+}
