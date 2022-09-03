@@ -8,6 +8,7 @@ Page: https://holidaze-opal.vercel.app/
 Admin page: https://holidaze-opal.vercel.app/admin/
 
 Admin username: admin
+
 Admin password: admin1234
 
 Credit for uploaded images:
