@@ -1,3 +1,64 @@
+# Project Exam 2
+
+![image](https://res.cloudinary.com/dtpmkwxcm/image/upload/v1663689247/projext_exam_2_for_github_h3w0aq.png)
+
+Project exam 2, build a hotel website with admin pages.
+
+## Description
+
+Final project exam from Noroff. 
+A working hotel website named Holidaze, based in Bergen, fully with a client page and full admin functionality.
+Uses a public strapi API hosted on heroku. 
+
+## Built With
+
+- [React.js](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Heroku](https://www.heroku.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Strapi](https://strapi.io/)
+- [Vercel](https://vercel.com/)
+
+## Getting Started
+
+### Installing
+
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:Noroff-FEU-Assignments/project-exam-2-MJmiyu.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+```bash
+npm run dev
+```
+
+## Contact.
+
+[My LinkedIn page](https://www.linkedin.com/in/marthe-neverdal/)
+
+## Acknowledgments
+
+Credit for uploaded images:
+
+- "Ibsens Hotel, Copenhagen, Denmark (København, Danmark)" by Kristoffer Trolle
+- "The Deluxe Double Room of the Kassandra Bay Hotel" by KB Collection Hotels & Resorts
+- "Hotel room stock photo" by espensorvik
+- "Grand Canyon Nat. Park: El Tovar Hotel in Moonlight 9463" by Grand Canyon NPS
+
+---
+
+# Old readme 
+
 Run app locally with
 
 ```bash
